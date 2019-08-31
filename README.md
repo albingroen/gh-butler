@@ -53,9 +53,11 @@ A automation tool for creating GitHub & Git projects that lets you get up and ru
 
         source ~/.zshrc
         
-## Templats
+## Templates
 
  - React.js
+ 
+More are comming, please feel free to provide templates 🙌
 
 ## Contributors
 
