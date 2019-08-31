@@ -84,7 +84,7 @@ function main() {
 
         log(` Downloading...`);
         exec(
-          `cd ~/Documents/Developer/Github && git clone ${body.ssh_url} && cd ${body.name} && code .`,
+          `cd ~/Documents && git clone ${body.ssh_url} && cd ${body.name} && code .`,
           (error, stdout, stderr) => {
             if (error) console.log({ error });
             log(" Opening VSCode...");
