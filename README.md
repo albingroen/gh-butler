@@ -12,7 +12,7 @@ A automation tool for creating GitHub & Git projects that lets you get up and ru
 
 1.  **Run the wizard**
 
-    gh-butler
+        gh-butler
 
 2.  **Answer questions**
 
