@@ -21,7 +21,7 @@ function main() {
     }
   };
 
-  request(authOptions, async (error, response, body) => {
+  request(authOptions, async error => {
     if (error) console.log({ error });
 
     // CREATE REPO
@@ -85,7 +85,7 @@ function main() {
         log(` Downloading...`);
         exec(
           `cd ~/Documents && git clone ${body.ssh_url} && cd ${body.name} && code .`,
-          (error, stdout, stderr) => {
+          error => {
             if (error) console.log({ error });
             log(" Opening VSCode...");
             console.log("");
