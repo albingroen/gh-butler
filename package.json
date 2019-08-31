@@ -1,0 +1,28 @@
+{
+  "name": "create-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albingroen/create-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albingroen/create-repo/issues"
+  },
+  "homepage": "https://github.com/albingroen/create-repo#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "child_process": "^1.0.2",
+    "dotenv": "^8.1.0",
+    "emoji-logger": "^1.0.14",
+    "inquirer": "^7.0.0",
+    "request": "^2.88.0"
+  }
+}
