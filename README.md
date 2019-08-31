@@ -27,7 +27,7 @@ A automation tool for creating GitHub & Git projects that lets you get up and ru
 
 1.  **Clone repository**
 
-        git clone git@github.com:albingroen/create-repo.git
+        git clone git@github.com:albingroen/gh-butler.git
 
 2.  **Install dependencies**
 
