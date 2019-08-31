@@ -52,6 +52,10 @@ A automation tool for creating GitHub & Git projects that lets you get up and ru
 5.  **Source your zsh configuration**
 
         source ~/.zshrc
+        
+## Templats
+
+ - React.js
 
 ## Contributors
 
