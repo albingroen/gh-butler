@@ -47,13 +47,17 @@ function main() {
         type: "list",
         name: "template",
         message: "Use a template:",
-        choices: ["None", "React.js"]
+        choices: ["None", "React.js", "Node.js", "Node.js + Express"]
       }
     ];
 
     inquirer.prompt(questions).then(answers => {
       const useTemplate = answers["template"] !== "None";
-      const templates = { "React.js": "enhanced-cra" };
+      const templates = {
+        "React.js": "enhanced-cra",
+        "Node.js": "Node-template",
+        "Node.js + Express": "Express-template"
+      };
 
       const postOptions = {
         method: "POST",
