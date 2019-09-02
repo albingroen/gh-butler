@@ -37,11 +37,11 @@ A automation tool for creating GitHub & Git projects that lets you get up and ru
 
         yarn
 
-3.  **Add a global alias to `~/.zshrc`**
+3.  **Add a global alias to `~/.zshrc`** (_or similar for bash_)
 
         alias gh-butler="node ~/gh-butler/script.js"
 
-4.  **Source your zsh configuration**
+4.  **Source your zsh configuration** (_or similar for bash_)
 
         source ~/.zshrc
 
