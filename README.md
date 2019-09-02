@@ -27,7 +27,7 @@ A automation tool for creating GitHub & Git projects that lets you get up and ru
 
 1.  **Clone repository**
 
-<a href="x-github-client://openRepo/https://github.com/albingroen/gh-butler">Open in Github Desktop</a>
+[Open in Github Desktop](x-github-client://openRepo/https://github.com/albingroen/gh-butler)
 
         git clone git@github.com:albingroen/gh-butler.git
 
