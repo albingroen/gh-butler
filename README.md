@@ -37,26 +37,18 @@ A automation tool for creating GitHub & Git projects that lets you get up and ru
 
         yarn
 
-3.  **Add your Github Access Token**
-
-    ⚠️ Choose **Repo** level for your access token
-
-    [Get your token here](https://github.com/settings/tokens/new)
-
-    Change `config.ex.js` to `config.js` and add your access token
-
-4.  **Add a global alias to `~/.zshrc`**
+3.  **Add a global alias to `~/.zshrc`**
 
         alias gh-butler="node ~/gh-butler/script.js"
 
-5.  **Source your zsh configuration**
+4.  **Source your zsh configuration**
 
         source ~/.zshrc
-        
+
 ## Templates
 
- - React.js
- 
+- React.js
+
 More are comming, please feel free to provide templates 🙌
 
 ## Contributors
