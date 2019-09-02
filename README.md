@@ -48,6 +48,8 @@ A automation tool for creating GitHub & Git projects that lets you get up and ru
 ## Templates
 
 - React.js
+- Node.js
+- Node.js + Express
 
 More are comming, please feel free to provide templates 🙌
 
