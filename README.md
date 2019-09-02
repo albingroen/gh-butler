@@ -39,7 +39,7 @@ A automation tool for creating GitHub & Git projects that lets you get up and ru
 
 3.  **Add a global alias to `~/.zshrc`** (_or similar for bash_)
 
-        alias gh-butler="node "PATH_TO_FOLDER"/script.js"
+        alias gh-butler="node PATH_TO_FOLDER/script.js"
 
 4.  **Source your zsh configuration** (_or similar for bash_)
 
