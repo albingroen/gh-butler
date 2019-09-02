@@ -27,9 +27,10 @@ A automation tool for creating GitHub & Git projects that lets you get up and ru
 
 1.  **Clone repository**
 
-<button>Clone repo</button>
-
-        git clone git@github.com:albingroen/gh-butler.git
+        <a style="background-color: #28a745; background-image: linear-gradient(-180deg,#34d058,#28a745 90%); ackground-position: -1px -1px; background-repeat: repeat-x; background-size: 110% 110%; border: 1px solid rgba(27,31,35,.2); border-radius: .25em; cursor: pointer; display: inline-block; color: white; text-decoration: none;" href="https://github.com/albingroen/gh-butler/archive/master.zip">Download</a>
+        
+        
+        <a href="x-github-client://openRepo/https://github.com/albingroen/gh-butler">Open in Github Desktop</a>
 
 2.  **Install dependencies**
 
