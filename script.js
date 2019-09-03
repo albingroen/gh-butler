@@ -5,7 +5,7 @@ const exec = require("child_process").exec;
 const log = require("emoji-logger");
 const inquirer = require("inquirer");
 
-const githubToken = require("../config");
+const githubToken = require("./config");
 const baseUrl = "https://api.github.com";
 
 function setup() {
