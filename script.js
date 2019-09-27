@@ -78,7 +78,7 @@ function main(githubToken) {
           type: "list",
           name: "template",
           message: "Use a template:",
-          choices: ["None", "React.js", "Node.js", "Node.js + Express"]
+          choices: ["None", "React.js", "Node.js", "Node.js + Express", "NPM module"]
         }
       ];
 
@@ -87,7 +87,8 @@ function main(githubToken) {
         const templates = {
           "React.js": "enhanced-cra",
           "Node.js": "Node-template",
-          "Node.js + Express": "Express-template"
+          "Node.js + Express": "Express-template",
+          "NPM module": "create-npm-module"
         };
 
         const postOptions = {
