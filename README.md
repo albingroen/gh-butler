@@ -12,7 +12,11 @@ A automation tool for creating GitHub & Git projects that lets you get up and ru
 
 1.  **Run the wizard**
 
-        gh-butler
+        gh-butler     
+
+1.5. **Enter Github repo level access token**
+
+The first time you run the command it will ask you for your Github Repo level access token. Fetch it from Github in the developer settings and enter it after the question. This will only be stored in a local file and you'll not have to enter it again as long as you don't delete the file.
 
 2.  **Answer questions**
 
