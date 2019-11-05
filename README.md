@@ -54,8 +54,7 @@ The first time you run the command it will ask you for your Github Repo level ac
 - React.js
 - Node.js
 - Node.js + Express
-
-More are comming, please feel free to provide templates 🙌
+- Link to any template you wish to use
 
 ## Contributors
 
